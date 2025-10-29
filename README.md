@@ -86,14 +86,14 @@ python data_preparation.py
 # 2. Run Supervised Finetuning
 python sft_training.py
 
-# 3. (Optional) Run PPO Training
+# 3. Run PPO Training
 # Note: PPO is compute-intensive
 python ppo_training.py
 
-# 4. (Optional) Create the DPO dataset
+# 4. Create the DPO dataset
 python dpo_dataset_creation.py
 
-# 5. (Optional) Run DPO Training
+# 5. Run DPO Training
 python dpo_training.py
 
 # 6. Evaluate all trained models
