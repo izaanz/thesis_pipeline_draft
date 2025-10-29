@@ -99,6 +99,3 @@ python dpo_training.py
 # 6. Evaluate all trained models
 python evaluation.py
 ```
-
-
-pip install -r requirements.txt
